@@ -1,0 +1,15 @@
+# متطلبات تطبيق SAM PRO Desktop
+# لتحويل التطبيق إلى ملف exe
+
+# PyInstaller لتحويل Python إلى exe
+pyinstaller==5.13.2
+
+# اختياري - مكتبات إضافية
+# جميع المكتبات المستخدمة مدمجة مع Python:
+# - tkinter (واجهة المستخدم)
+# - webbrowser (فتح المتصفح)
+# - http.server (خادم ويب محلي)
+# - threading (معالجة متوازية)
+# - socket (اتصالات الشبكة)
+# - json (معالجة JSON)
+# - os, sys (نظام التشغيل)
